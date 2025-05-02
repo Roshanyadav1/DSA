@@ -1,0 +1,6 @@
+hey , 
+Remember things next time :
+
+cin and cout symbols for taking the input .
+Remember the operations function name  which is used by the vector and the array ;
+
