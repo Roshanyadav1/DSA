@@ -8,7 +8,7 @@ int main(){
     // we have to find the sum of two number which is equal to two digit of the v1 vector
     int sum = 7 ;
 
-    for(int i = 0 ; i < v1.size() ; i++){
+    for(int i = 0 ; i < `v1.size() ; i++){
         int difference = sum - v1[i];
         
         auto it = m1.find(difference);
