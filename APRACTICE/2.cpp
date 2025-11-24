@@ -1,17 +1,20 @@
-// first and last digit of an number
-
-#include <iostream>
+#include <bits/stdc++.h>
+#include <vector>
 using namespace std;
 
 int main(){
-   int a = 0 , b = 1 , sum = 0 , n = 10;
+	// sub array generation
+      vector<int> v1 = { 1 , 2 , 3 , 4 , 5};
+	  
 
-   while(n--){
-    cout << a << endl;
-    sum = a + b ;
-    a = b;
-    b = sum;
-  }
-
-   return 0;    
+      for(int i = 0 ; i < v1.size() ; i++){
+		for(int j = 0 ; j < v1.size() ; j++){
+			// in order to print it 
+			for(int k = i ; k <= j ; k++){
+				cout << v1[k] ;
+			}
+			cout << endl;
+		}
+      }
+	return 0;
 }
