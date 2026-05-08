@@ -30,8 +30,7 @@ int main()
     unordered_map<int, int> m1;
     for (auto ele : arr)
     {
-        if (m1[ele])
-        {
+        if (m1[ele]){
             isDuplicate = true;
         }
         m1[ele] = 1;
