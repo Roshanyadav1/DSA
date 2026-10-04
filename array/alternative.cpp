@@ -1,4 +1,5 @@
-//  7. Print	alternate	elements	in	an	array.
+// 7. Print	alternate	elements	in	an	array.
+// clang++ main.cpp -o main
 
 #include <iostream>
 
