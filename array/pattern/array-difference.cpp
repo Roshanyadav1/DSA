@@ -21,7 +21,7 @@ int main(){
         // changing the version of sheet
         arr[l] = x;
         if(r+1 < size1){
-            arr[r]=-x;
+            arr[r+1]=-x;
         };
     }
 
